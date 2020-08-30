@@ -1,0 +1,176 @@
+.InnerPrice-container{
+  margin:auto;
+  width:1000px;
+}
+.MainPrice-container{
+  margin-top:40px;
+}
+.flex-container-tab{
+  display:flex;
+  border-radius: 5px;
+  background-color:rgb(247,247,247);
+  border-collapse: collapse;
+}
+.flex-container-tab > div{
+  width:25%;
+  text-align: center;
+  padding:10px;
+  color:black;
+  font-weight: 500 !important;
+  font-size: 20px !important;
+  border-right: 2px solid gainsboro;
+}
+.active{
+  color:white !important;
+  background-color:rgb(90, 111 , 144);
+  cursor: pointer;
+}
+.non-active{
+  color:black !important;
+  background-color:rgb(247,247,247);
+  cursor: pointer;
+}
+.flex-container-tab div:last-child{
+  border:0px solid black;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.flex-container-tab div:first-child{
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.row{
+  margin-top: 50px !important;
+}
+.pricecard div:first-child{
+  padding-left: 0px !important;
+}
+.pricecard div:last-child{
+  padding-right: 0px !important;
+}
+.popular{
+  text-align: center;
+  border: 1px solid rgb(238,90,54);
+  background-color:rgb(238,90,54);
+  color:white;
+  font-weight: 500;
+  padding:15px;
+}
+.popular-tbody{
+  background-color: rgb(245,245,245) !important;
+}
+.flex-container-price{
+  display: flex;
+  align-items: flex-end;
+}
+.table-button{
+  text-align: center;
+  border: 1px solid rgb(238,90,54);
+  color:rgb(238,90,54);
+  margin-top: 10px;
+  font-weight: 500;
+  padding:15px;
+}
+.table-button:hover{
+  background-color: rgb(238,90,54) !important;
+  color:white !important;
+}
+.enterprise{
+  height:272px;
+  background-color: rgb(247,247,247);
+  text-align: center;
+  display: flex;
+  font-weight: 500;
+  color:rgb(54,69,72) !important;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.table-button-enterprise{
+  text-align: center;
+  border: 1px solid rgb(238,90,54);
+  color:rgb(238,90,54);
+  font-weight: 500;
+  padding:15px;
+}
+.table-button-enterprise:hover{
+  background-color: rgb(238,90,54) !important;
+  color:white !important;
+}
+th,td{
+  text-align:center;
+  padding:15px;
+}
+thead,tfoot{
+  background-color:rgb(90, 111 , 144);
+  color:white;
+  font-weight: 500;
+  border:1px solid black
+}
+tbody tr:last-child{
+  border:none;
+}
+thead tr,tfoot tr{
+  border:none;
+}
+tbody tr:nth-child(odd){
+  border:none;
+  
+}
+tbody tr:nth-child(even){
+  border-bottom:1px dotted gray;
+ 
+}
+tbody td{
+  padding: 5px 15px !important;
+  font-size: 14px;
+  font-weight: 500;
+  color:rgb(54,69,72) !important;
+}
+input{
+  border:1px solid black !important;
+  border-radius: 5px !important;
+  margin-top: 5px !important;
+}
+label{
+  font-size: 12px !important;
+  color:rgb(90, 111 , 144);
+  font-weight: 600;
+  padding-bottom: 15px !important;
+}
+.set-input-left{
+  float:left;
+  width:48%;
+}
+.set-input-right{
+  float:right;
+  width:48% !important;
+}
+h5{
+  text-align: center;
+  font-weight: 600;
+}
+h6{
+  font-weight: 600 !important;
+}
+.form-title{
+  border-bottom: 1px solid blue;
+  color:rgb(90, 111 , 144);
+}
+.outer-container-price-modal{
+  width:90%;
+  margin:auto;
+}
+.modal{
+  width:50% !important;
+}
+.cursor{
+  cursor: pointer;
+}
+.label{
+  padding:0px 10px;
+}
+.submit{
+  margin-top: 15px;
+  background-color: orange;
+}
