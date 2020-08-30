@@ -8,7 +8,7 @@ Step-2: Unzip the Project
 
 Step-3: Open command prompt/terminal in project directory
 
-Step-4: Type Command "npm install" to install all dependicies npm packages of a project
+Step-4: Type Command "npm install" to install all dependencies npm packages of a project
 
 Step-5: After installing all the packages type "npm start" on command prompt to run the development server.
 
